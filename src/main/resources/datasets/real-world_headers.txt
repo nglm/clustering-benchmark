@@ -1,0 +1,540 @@
+heart-statlog.arff
+    age  sex  chest  resting_blood_pressure  serum_cholestoral  \
+0  62.0  0.0    3.0                   130.0              263.0
+1  41.0  0.0    3.0                   112.0              268.0
+2  52.0  1.0    1.0                   118.0              186.0
+3  52.0  0.0    3.0                   136.0              196.0
+4  59.0  1.0    1.0                   178.0              270.0
+
+   fasting_blood_sugar  resting_electrocardiographic_results  \
+0                  0.0                                   0.0
+1                  0.0                                   2.0
+2                  0.0                                   2.0
+3                  0.0                                   2.0
+4                  0.0                                   2.0
+
+   maximum_heart_rate_achieved  exercise_induced_angina  oldpeak  slope  \
+0                         97.0                      0.0      1.2    2.0
+1                        172.0                      1.0      0.0    1.0
+2                        190.0                      0.0      0.0    2.0
+3                        169.0                      0.0      0.1    2.0
+4                        145.0                      0.0      4.2    3.0
+
+   number_of_major_vessels  thal       class
+0                      1.0   7.0  b'present'
+1                      0.0   3.0   b'absent'
+2                      0.0   6.0   b'absent'
+3                      0.0   3.0   b'absent'
+4                      0.0   7.0   b'absent'
+water-treatment.arff
+          date       Q-E  ZN-E  PH-E   DBO-E   DQO-E    SS-E  SSV-E  SED-E  \
+0  b'D-1/3/90'  b'44101'   1.5   7.8    b'?'  b'407'  b'166'   66.3    4.5
+1  b'D-2/3/90'  b'39024'   3.0   7.7    b'?'  b'443'  b'214'   69.2    6.5
+2  b'D-4/3/90'  b'32229'   5.0   7.6    b'?'  b'528'  b'186'   69.9    3.4
+3  b'D-5/3/90'  b'35023'   3.5   7.9  b'205'  b'588'  b'192'   65.6    4.5
+4  b'D-6/3/90'  b'36924'   1.5   8.0  b'242'  b'496'  b'176'   64.8    4.0
+
+    COND-E  ...   COND-S RD-DBO-P RD-SS-P  RD-SED-P  RD-DBO-S RD-DQO-S  \
+0  b'2110'  ...  b'2000'      NaN    58.8      95.5       NaN     70.0
+1  b'2660'  ...  b'2590'      NaN    60.7      94.8       NaN     80.8
+2  b'1666'  ...  b'1888'      NaN    58.2      95.6       NaN     52.9
+3  b'2430'  ...  b'1840'     33.1    64.2      95.3      87.3     72.3
+4  b'2110'  ...  b'2120'      NaN    62.7      95.6       NaN     71.0
+
+   RD-DBO-G RD-DQO-G RD-SS-G RD-SED-G
+0       NaN     79.4    87.3     99.6
+1       NaN     79.5    92.1    100.0
+2       NaN     75.8    88.7     98.5
+3      90.2     82.3    89.6    100.0
+4      92.1     78.2    87.5     99.5
+
+[5 rows x 39 columns]
+balance-scale.arff
+   left-weight  left-distance  right-weight  right-distance class
+0          1.0            1.0           1.0             1.0  b'B'
+1          1.0            1.0           1.0             2.0  b'R'
+2          1.0            1.0           1.0             3.0  b'R'
+3          1.0            1.0           1.0             4.0  b'R'
+4          1.0            1.0           1.0             5.0  b'R'
+thy.arff
+      a1    a2   a3   a4   a5 class
+0  107.0  10.1  2.2  0.9  2.7  b'1'
+1  113.0   9.9  3.1  2.0  5.9  b'1'
+2  127.0  12.9  2.4  1.4  0.6  b'1'
+3  109.0   5.3  1.6  1.4  1.5  b'1'
+4  105.0   7.3  1.5  1.5 -0.1  b'1'
+cpu.arff
+    MYCT    MMIN     MMAX   CACH  CHMIN  CHMAX  class
+0  125.0   256.0   6000.0  256.0   16.0  128.0  198.0
+1   29.0  8000.0  32000.0   32.0    8.0   32.0  269.0
+2   29.0  8000.0  32000.0   32.0    8.0   32.0  220.0
+3   29.0  8000.0  32000.0   32.0    8.0   32.0  172.0
+4   29.0  8000.0  16000.0   32.0    8.0   16.0  132.0
+wdbc.arff
+     IDNumber class  RealValuedInputFeature_1  RealValuedInputFeature_2  \
+0    842302.0  b'M'                     17.99                     10.38
+1    842517.0  b'M'                     20.57                     17.77
+2  84300903.0  b'M'                     19.69                     21.25
+3  84348301.0  b'M'                     11.42                     20.38
+4  84358402.0  b'M'                     20.29                     14.34
+
+   RealValuedInputFeature_3  RealValuedInputFeature_4  \
+0                    122.80                    1001.0
+1                    132.90                    1326.0
+2                    130.00                    1203.0
+3                     77.58                     386.1
+4                    135.10                    1297.0
+
+   RealValuedInputFeature_5  RealValuedInputFeature_6  \
+0                   0.11840                   0.27760
+1                   0.08474                   0.07864
+2                   0.10960                   0.15990
+3                   0.14250                   0.28390
+4                   0.10030                   0.13280
+
+   RealValuedInputFeature_7  RealValuedInputFeature_8  ...  \
+0                    0.3001                   0.14710  ...
+1                    0.0869                   0.07017  ...
+2                    0.1974                   0.12790  ...
+3                    0.2414                   0.10520  ...
+4                    0.1980                   0.10430  ...
+
+   RealValuedInputFeature_21  RealValuedInputFeature_22  \
+0                      25.38                      17.33
+1                      24.99                      23.41
+2                      23.57                      25.53
+3                      14.91                      26.50
+4                      22.54                      16.67
+
+   RealValuedInputFeature_23  RealValuedInputFeature_24  \
+0                     184.60                     2019.0
+1                     158.80                     1956.0
+2                     152.50                     1709.0
+3                      98.87                      567.7
+4                     152.20                     1575.0
+
+   RealValuedInputFeature_25  RealValuedInputFeature_26  \
+0                     0.1622                     0.6656
+1                     0.1238                     0.1866
+2                     0.1444                     0.4245
+3                     0.2098                     0.8663
+4                     0.1374                     0.2050
+
+   RealValuedInputFeature_27  RealValuedInputFeature_28  \
+0                     0.7119                     0.2654
+1                     0.2416                     0.1860
+2                     0.4504                     0.2430
+3                     0.6869                     0.2575
+4                     0.4000                     0.1625
+
+   RealValuedInputFeature_29  RealValuedInputFeature_30
+0                     0.4601                    0.11890
+1                     0.2750                    0.08902
+2                     0.3613                    0.08758
+3                     0.6638                    0.17300
+4                     0.2364                    0.07678
+
+[5 rows x 32 columns]
+zoo.arff
+   HAIR  FEATHERS  EGGS  MILK  AIRBORNE  AQUATIC  PREDATOR  TOOTHED  BACKBONE  \
+0   1.0       0.0   0.0   1.0       0.0      0.0       1.0      1.0       1.0
+1   0.0       0.0   1.0   0.0       0.0      1.0       1.0      1.0       1.0
+2   0.0       1.0   1.0   0.0       1.0      1.0       0.0      0.0       1.0
+3   0.0       0.0   1.0   0.0       0.0      1.0       1.0      1.0       1.0
+4   1.0       0.0   0.0   1.0       0.0      0.0       0.0      1.0       1.0
+
+   BREATHES  VENOMOUS  FINS  LEGS  TAIL  DOMESTIC  CATSIZE class
+0       1.0       0.0   0.0   4.0   0.0       0.0      1.0  b'1'
+1       0.0       0.0   1.0   0.0   1.0       0.0      0.0  b'4'
+2       1.0       0.0   0.0   2.0   1.0       0.0      0.0  b'2'
+3       1.0       1.0   0.0   4.0   0.0       0.0      0.0  b'5'
+4       1.0       0.0   0.0   4.0   1.0       0.0      1.0  b'1'
+arrhythmia.arff
+     V1   V2     V3    V4     V5     V6     V7     V8     V9   V10  ...  V254  \
+0  75.0  0.0  190.0  80.0   91.0  193.0  371.0  174.0  121.0 -16.0  ...  -0.3
+1  56.0  1.0  165.0  64.0   81.0  174.0  401.0  149.0   39.0  25.0  ...  -0.5
+2  54.0  0.0  172.0  95.0  138.0  163.0  386.0  185.0  102.0  96.0  ...   0.9
+3  55.0  0.0  175.0  94.0  100.0  202.0  380.0  179.0  143.0  28.0  ...   0.1
+4  75.0  0.0  190.0  80.0   88.0  181.0  360.0  177.0  103.0 -16.0  ...  -0.4
+
+   V255  V256  V257  V258  V259  V260  V261  V262  Class
+0   0.0   9.0  -0.9   0.0   0.9   2.9  23.3  49.4  b'12'
+1   0.0   8.5   0.0   0.0   0.2   2.1  20.4  38.8  b'10'
+2   0.0   9.5  -2.4   0.0   0.3   3.4  12.3  49.0   b'2'
+3   0.0  12.2  -2.2   0.0   0.4   2.6  34.6  61.6   b'1'
+4   0.0  13.1  -3.6   0.0  -0.1   3.9  25.4  62.8  b'11'
+
+[5 rows x 263 columns]
+ecoli.arff
+    mcg   gvh   lip  chg   aac  alm1  alm2  class
+0  0.49  0.29  0.48  0.5  0.56  0.24  0.35  b'cp'
+1  0.07  0.40  0.48  0.5  0.54  0.35  0.44  b'cp'
+2  0.56  0.40  0.48  0.5  0.49  0.37  0.46  b'cp'
+3  0.59  0.49  0.48  0.5  0.52  0.45  0.36  b'cp'
+4  0.23  0.32  0.48  0.5  0.55  0.25  0.35  b'cp'
+glass.arff
+        RI     Na    Mg    Al     Si   'K'    Ca    Ba    Fe  \
+0  1.51567  13.29  3.45  1.21  72.74  0.56  8.57  0.00  0.00
+1  1.52667  13.99  3.70  0.71  71.57  0.02  9.82  0.00  0.10
+2  1.51514  14.01  2.68  3.50  69.89  1.68  5.87  2.20  0.00
+3  1.51766  13.21  3.69  1.29  72.61  0.57  8.22  0.00  0.00
+4  1.52068  13.55  2.09  1.67  72.18  0.53  9.57  0.27  0.17
+
+                     Class
+0      b'build_wind_float'
+1      b'build_wind_float'
+2            b'containers'
+3      b'build_wind_float'
+4  b'build_wind_non-float'
+iris.arff
+   sepallength  sepalwidth  petallength  petalwidth              class
+0          4.8         3.4          1.9         0.2     b'Iris-setosa'
+1          4.5         2.3          1.3         0.3     b'Iris-setosa'
+2          4.6         3.4          1.4         0.3     b'Iris-setosa'
+3          6.8         3.0          5.5         2.1  b'Iris-virginica'
+4          5.0         3.4          1.6         0.4     b'Iris-setosa'
+dermatology.arff
+  erythema scaling definite_borders itching koebner_phenomenon  \
+0     b'2'    b'2'             b'0'    b'3'               b'0'
+1     b'3'    b'3'             b'3'    b'2'               b'1'
+2     b'2'    b'1'             b'2'    b'3'               b'1'
+3     b'2'    b'2'             b'2'    b'0'               b'0'
+4     b'2'    b'3'             b'2'    b'2'               b'2'
+
+  polygonal_papules follicular_papules oral_mucosal_involvement  \
+0              b'0'               b'0'                     b'0'
+1              b'0'               b'0'                     b'0'
+2              b'3'               b'0'                     b'3'
+3              b'0'               b'0'                     b'0'
+4              b'2'               b'0'                     b'2'
+
+  knee_and_elbow_involvement scalp_involvement  ...  \
+0                       b'1'              b'0'  ...
+1                       b'1'              b'1'  ...
+2                       b'0'              b'0'  ...
+3                       b'3'              b'2'  ...
+4                       b'0'              b'0'  ...
+
+  disappearance_of_the_granular_layer vacuolisation_and_damage_of_basal_layer  \
+0                                b'0'                                    b'0'
+1                                b'0'                                    b'0'
+2                                b'0'                                    b'2'
+3                                b'3'                                    b'0'
+4                                b'2'                                    b'3'
+
+  spongiosis saw-tooth_appearance_of_retes follicular_horn_plug  \
+0       b'3'                          b'0'                 b'0'
+1       b'0'                          b'0'                 b'0'
+2       b'3'                          b'2'                 b'0'
+3       b'0'                          b'0'                 b'0'
+4       b'2'                          b'3'                 b'0'
+
+  perifollicular_parakeratosis inflammatory_monoluclear_inflitrate  \
+0                         b'0'                                b'1'
+1                         b'0'                                b'1'
+2                         b'0'                                b'2'
+3                         b'0'                                b'3'
+4                         b'0'                                b'2'
+
+  band-like_infiltrate   Age class
+0                 b'0'  55.0  b'2'
+1                 b'0'   8.0  b'1'
+2                 b'3'  26.0  b'3'
+3                 b'0'  40.0  b'1'
+4                 b'3'  45.0  b'3'
+
+[5 rows x 35 columns]
+haberman.arff
+   Age_of_patient_at_time_of_operation Patients_year_of_operation  \
+0                                 30.0                      b'64'
+1                                 30.0                      b'62'
+2                                 30.0                      b'65'
+3                                 31.0                      b'59'
+4                                 31.0                      b'65'
+
+   Number_of_positive_axillary_nodes_detected class
+0                                         1.0  b'1'
+1                                         3.0  b'1'
+2                                         0.0  b'1'
+3                                         2.0  b'1'
+4                                         4.0  b'1'
+vehicle.arff
+   COMPACTNESS  CIRCULARITY  DISTANCE CIRCULARITY  RADIUS RATIO  \
+0         95.0         48.0                  83.0         178.0
+1         91.0         41.0                  84.0         141.0
+2        104.0         50.0                 106.0         209.0
+3         93.0         41.0                  82.0         159.0
+4         85.0         44.0                  70.0         205.0
+
+   PR.AXIS ASPECT RATIO  MAX.LENGTH ASPECT RATIO  SCATTER RATIO  \
+0                  72.0                     10.0          162.0
+1                  57.0                      9.0          149.0
+2                  66.0                     10.0          207.0
+3                  63.0                      9.0          144.0
+4                 103.0                     52.0          149.0
+
+   ELONGATEDNESS  PR.AXIS RECTANGULARITY  MAX.LENGTH RECTANGULARITY  \
+0           42.0                    20.0                      159.0
+1           45.0                    19.0                      143.0
+2           32.0                    23.0                      158.0
+3           46.0                    19.0                      143.0
+4           45.0                    19.0                      144.0
+
+   SCALED VARIANCE_MAJOR  SCALED VARIANCE_MINOR  SCALED RADIUS OF GYRATION  \
+0                  176.0                  379.0                      184.0
+1                  170.0                  330.0                      158.0
+2                  223.0                  635.0                      220.0
+3                  160.0                  309.0                      127.0
+4                  241.0                  325.0                      188.0
+
+   SKEWNESS ABOUT_MAJOR  SKEWNESS ABOUT_MINOR  KURTOSIS ABOUT_MAJOR  \
+0                  70.0                   6.0                  16.0
+1                  72.0                   9.0                  14.0
+2                  73.0                  14.0                   9.0
+3                  63.0                   6.0                  10.0
+4                 127.0                   9.0                  11.0
+
+   KURTOSIS ABOUT_MINOR  HOLLOWS RATIO    Class
+0                 187.0          197.0   b'van'
+1                 189.0          199.0   b'van'
+2                 188.0          196.0  b'saab'
+3                 199.0          207.0   b'van'
+4                 180.0          183.0   b'bus'
+vowel.arff
+  Train or Test Speaker Number      Sex  Feature 0  Feature 1  Feature 2  \
+0      b'Train'      b'Andrew'  b'Male'     -3.639      0.418     -0.670
+1      b'Train'      b'Andrew'  b'Male'     -3.327      0.496     -0.694
+2      b'Train'      b'Andrew'  b'Male'     -2.120      0.894     -1.576
+3      b'Train'      b'Andrew'  b'Male'     -2.287      1.809     -1.498
+4      b'Train'      b'Andrew'  b'Male'     -2.598      1.938     -0.846
+
+   Feature 3  Feature 4  Feature 5  Feature 6  Feature 7  Feature 8  \
+0      1.779     -0.168      1.627     -0.388      0.529     -0.874
+1      1.365     -0.265      1.933     -0.363      0.510     -0.621
+2      0.147     -0.707      1.559     -0.579      0.676     -0.809
+3      1.012     -1.053      1.060     -0.567      0.235     -0.091
+4      1.062     -1.633      0.764      0.394     -0.150      0.277
+
+   Feature 9   Class
+0     -0.814  b'hid'
+1     -0.488  b'hId'
+2     -0.049  b'hEd'
+3     -0.795  b'hAd'
+4     -0.396  b'hYd'
+sonar.arff
+   attribute_1  attribute_2  attribute_3  attribute_4  attribute_5  \
+0       0.0200       0.0371       0.0428       0.0207       0.0954
+1       0.0453       0.0523       0.0843       0.0689       0.1183
+2       0.0262       0.0582       0.1099       0.1083       0.0974
+3       0.0100       0.0171       0.0623       0.0205       0.0205
+4       0.0762       0.0666       0.0481       0.0394       0.0590
+
+   attribute_6  attribute_7  attribute_8  attribute_9  attribute_10  ...  \
+0       0.0986       0.1539       0.1601       0.3109        0.2111  ...
+1       0.2583       0.2156       0.3481       0.3337        0.2872  ...
+2       0.2280       0.2431       0.3771       0.5598        0.6194  ...
+3       0.0368       0.1098       0.1276       0.0598        0.1264  ...
+4       0.0649       0.1209       0.2467       0.3564        0.4459  ...
+
+   attribute_52  attribute_53  attribute_54  attribute_55  attribute_56  \
+0        0.0027        0.0065        0.0159        0.0072        0.0167
+1        0.0084        0.0089        0.0048        0.0094        0.0191
+2        0.0232        0.0166        0.0095        0.0180        0.0244
+3        0.0121        0.0036        0.0150        0.0085        0.0073
+4        0.0031        0.0054        0.0105        0.0110        0.0015
+
+   attribute_57  attribute_58  attribute_59  attribute_60    Class
+0        0.0180        0.0084        0.0090        0.0032  b'Rock'
+1        0.0140        0.0049        0.0052        0.0044  b'Rock'
+2        0.0316        0.0164        0.0095        0.0078  b'Rock'
+3        0.0050        0.0044        0.0040        0.0117  b'Rock'
+4        0.0072        0.0048        0.0107        0.0094  b'Rock'
+
+[5 rows x 61 columns]
+wine.arff
+  class  Alcohol  Malic_acid   Ash  Alcalinity_of_ash  Magnesium  \
+0  b'1'    14.23        1.71  2.43               15.6      127.0
+1  b'1'    13.20        1.78  2.14               11.2      100.0
+2  b'1'    13.16        2.36  2.67               18.6      101.0
+3  b'1'    14.37        1.95  2.50               16.8      113.0
+4  b'1'    13.24        2.59  2.87               21.0      118.0
+
+   Total_phenols  Flavanoids  Nonflavanoid_phenols  Proanthocyanins  \
+0           2.80        3.06                  0.28             2.29
+1           2.65        2.76                  0.26             1.28
+2           2.80        3.24                  0.30             2.81
+3           3.85        3.49                  0.24             2.18
+4           2.80        2.69                  0.39             1.82
+
+   Color_intensity   Hue  OD280/OD315_of_diluted_wines  Proline
+0             5.64  1.04                          3.92   1065.0
+1             4.38  1.05                          3.40   1050.0
+2             5.68  1.03                          3.17   1185.0
+3             7.80  0.86                          3.45   1480.0
+4             4.32  1.04                          2.93    735.0
+german.arff
+  Status_of_existing_checking_account  Duration_in_month Credit_history  \
+0                              b'A11'                6.0         b'A34'
+1                              b'A12'               48.0         b'A32'
+2                              b'A14'               12.0         b'A34'
+3                              b'A11'               42.0         b'A32'
+4                              b'A11'               24.0         b'A33'
+
+  Purpose  Credit_amount Savings_account_bonds Present_employment_since  \
+0  b'A43'         1169.0                b'A65'                   b'A75'
+1  b'A43'         5951.0                b'A61'                   b'A73'
+2  b'A46'         2096.0                b'A61'                   b'A74'
+3  b'A42'         7882.0                b'A61'                   b'A74'
+4  b'A40'         4870.0                b'A61'                   b'A73'
+
+   Installment_rate_in_percentage_of_disposable_income  \
+0                                                4.0
+1                                                2.0
+2                                                2.0
+3                                                2.0
+4                                                3.0
+
+  Personal_status_and_sex Other_debtors_guarantors  ...  Property  \
+0                  b'A93'                  b'A101'  ...   b'A121'
+1                  b'A92'                  b'A101'  ...   b'A121'
+2                  b'A93'                  b'A101'  ...   b'A121'
+3                  b'A93'                  b'A103'  ...   b'A122'
+4                  b'A93'                  b'A101'  ...   b'A124'
+
+  Age_in_years  Other_installment_plans  Housing  \
+0         67.0                  b'A143'  b'A152'
+1         22.0                  b'A143'  b'A152'
+2         49.0                  b'A143'  b'A152'
+3         45.0                  b'A143'  b'A153'
+4         53.0                  b'A143'  b'A153'
+
+  Number_of_existing_credits_at_this_bank      Job  \
+0                                     2.0  b'A173'
+1                                     1.0  b'A173'
+2                                     1.0  b'A172'
+3                                     1.0  b'A173'
+4                                     2.0  b'A173'
+
+  Number_of_people_being_liable_to_provide_maintenance_for  Telephone  \
+0                                                1.0          b'A192'
+1                                                1.0          b'A191'
+2                                                2.0          b'A191'
+3                                                2.0          b'A191'
+4                                                2.0          b'A191'
+
+  foreign_worker CLASS
+0        b'A201'  b'1'
+1        b'A201'  b'2'
+2        b'A201'  b'1'
+3        b'A201'  b'1'
+4        b'A201'  b'2'
+
+[5 rows x 21 columns]
+tae.arff
+  Whether_of_not_the_TA_is_a_native_English_speaker  Course_instructor  \
+0                                              b'1'               23.0
+1                                              b'2'               15.0
+2                                              b'1'               23.0
+3                                              b'1'                5.0
+4                                              b'2'                7.0
+
+   Course Summer_or_regular_semester  Class_size Class
+0     3.0                       b'1'        19.0  b'3'
+1     3.0                       b'1'        17.0  b'3'
+2     3.0                       b'2'        49.0  b'3'
+3     2.0                       b'2'        33.0  b'3'
+4    11.0                       b'2'        55.0  b'3'
+letter.arff
+   x-box  y-box  width  high  onpix  x-bar  y-bar  x2bar  y2bar  xybar  x2ybr  \
+0    2.0    4.0    4.0   3.0    2.0    7.0    8.0    2.0    9.0   11.0    7.0
+1    4.0    7.0    5.0   5.0    5.0    5.0    9.0    6.0    4.0    8.0    7.0
+2    7.0   10.0    8.0   7.0    4.0    8.0    8.0    5.0   10.0   11.0    2.0
+3    4.0    9.0    5.0   7.0    4.0    7.0    7.0   13.0    1.0    7.0    6.0
+4    6.0    7.0    8.0   5.0    4.0    7.0    6.0    3.0    7.0   10.0    7.0
+
+   xy2br  x-ege  xegvy  y-ege  yegvx class
+0    7.0    1.0    8.0    5.0    6.0  b'Z'
+1    9.0    2.0    9.0    7.0   10.0  b'P'
+2    8.0    2.0    5.0    5.0   10.0  b'S'
+3    8.0    3.0    8.0    0.0    8.0  b'H'
+4    9.0    3.0    8.0    3.0    7.0  b'H'
+iono.arff
+   a01  a02      a03      a04      a05      a06      a07      a08      a09  \
+0  1.0  0.0  0.92436  0.36924  0.71976  0.68420  0.29303  0.94078 -0.11108
+1  1.0  0.0 -0.26667  0.40000 -0.27303  0.12159 -0.17778 -0.04444  0.06192
+2  1.0  0.0  0.83789  0.42904  0.72113  0.58385  0.45625  0.78115  0.16470
+3  1.0  0.0  0.26667 -0.10000  0.53333  0.00000  0.33333 -0.13333  0.36667
+4  1.0  0.0  1.00000  0.23058  1.00000 -0.78509  1.00000 -0.10401  1.00000
+
+       a10  ...      a26      a27      a28      a29      a30      a31  \
+0  0.76527  ... -0.88082  0.19765 -0.85137  0.48904 -0.70247  0.69886
+1 -0.06879  ... -0.00050  0.00019 -0.00043  0.00026  0.00005  0.00000
+2  0.82732  ... -0.67796 -0.05054 -0.62691  0.14690 -0.45911  0.37093
+3  0.11667  ...  0.13333  0.46214  0.05439  0.40000  0.03333  0.46667
+4  0.15414  ... -0.01253  0.96238 -0.04597  0.91165  0.03885  1.00000
+
+       a32      a33      a34  class
+0 -0.46048  0.76066 -0.13194   b'g'
+1  0.00015 -0.00008  0.00002   b'b'
+2 -0.39167  0.48319 -0.24313   b'g'
+3  0.03333  0.41667 -0.05000   b'g'
+4 -0.13722  0.96523 -0.11717   b'g'
+
+[5 rows x 35 columns]
+wisc.arff
+   Clump_Thickness  Cell_Size_Uniformity  Cell_Shape_Uniformity  \
+0              7.0                   4.0                    5.0
+1              5.0                   3.0                    4.0
+2              9.0                   9.0                   10.0
+3              1.0                   1.0                    2.0
+4              5.0                   7.0                    9.0
+
+   Marginal_Adhesion  Single_Epi_Cell_Size  Bare_Nuclei  Bland_Chromatin  \
+0               10.0                   2.0        10.00              3.0
+1                1.0                   4.0         1.00              3.0
+2                3.0                   6.0        10.00              7.0
+3                1.0                   3.0         1.37              1.0
+4                8.0                   6.0        10.00              8.0
+
+   Normal_Nucleoli  Mitoses         Class
+0              8.0      2.0  b'malignant'
+1              1.0      1.0     b'benign'
+2             10.0      6.0  b'malignant'
+3              1.0      1.0     b'benign'
+4             10.0      1.0  b'malignant'
+segment.arff
+   region-centroid-col  region-centroid-row  region-pixel-count  \
+0                218.0                178.0                 9.0
+1                113.0                130.0                 9.0
+2                202.0                 41.0                 9.0
+3                 32.0                173.0                 9.0
+4                 61.0                197.0                 9.0
+
+   short-line-density-5  short-line-density-2  vedge-mean  vegde-sd  \
+0              0.111111                   0.0    0.833333  0.547722
+1              0.000000                   0.0    0.277778  0.250924
+2              0.000000                   0.0    0.944448  0.772202
+3              0.000000                   0.0    1.722220  1.781590
+4              0.000000                   0.0    1.444440  1.515350
+
+   hedge-mean  hedge-sd  intensity-mean  rawred-mean  rawblue-mean  \
+0    1.111110  0.544331       59.629600      52.4444      75.22220
+1    0.333333  0.365148        0.888889       0.0000       2.55556
+2    1.111110  1.025600      123.037000     111.8890     139.77800
+3    9.000000  6.749490       43.592600      39.5556      52.88890
+4    2.611110  1.925460       49.592600      44.2222      61.55560
+
+   rawgreen-mean  exred-mean  exblue-mean  exgreen-mean  value-mean  \
+0      51.222200   -21.55560      46.7778     -25.22220    75.22220
+1       0.111111    -2.66667       5.0000      -2.33333     2.55556
+2     117.444000   -33.44440      50.2222     -16.77780   139.77800
+3      38.333300   -12.11110      27.8889     -15.77780    52.88890
+4      43.000000   -16.11110      35.8889     -19.77780    61.55560
+
+   saturation-mean  hue-mean       class
+0         0.318996  -2.04055     b'path'
+1         1.000000  -2.12325  b'foliage'
+2         0.199347  -2.29992      b'sky'
+3         0.266914  -1.99886     b'path'
+4         0.302925  -2.02227     b'path'
+yeast.arff
